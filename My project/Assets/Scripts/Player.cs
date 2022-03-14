@@ -16,6 +16,9 @@ public class Player : MonoBehaviour
     private Rigidbody2D rig;
     private Animator anim;
 
+    public CircleCollider2D circleCollider2D;
+    public BoxCollider2D boxCollider2D;
+
     // Start is called before the first frame update
     void Start()
     {
